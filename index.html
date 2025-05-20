@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day Planner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Day Planner</h1>
+      <div class="input-sec">
+        <input type="text" id="task-input" placeholder="Enter a new task..." />
+        <input type="date" id="task-date" />
+        <input type="time" id="task-time" />
+        <button id="add-btn">Add Task</button>
+      </div>
+
+      <div class="filter-sec">
+        <input type="date" id="filter-date" />
+        <input type="text" id="search-input" placeholder="Search tasks..." />
+        <button id="export-btn">Export</button>
+        <input type="file" id="import-file" />
+      </div>
+
+      <ul id="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
