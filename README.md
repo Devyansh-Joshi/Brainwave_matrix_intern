@@ -1,4 +1,4 @@
-# 🗓️ Day Planner Web App
+# Task 1 🗓️ Day Planner Web App
 
 A simple yet functional day planner web app built using **HTML**, **CSS**, and **JavaScript**. It helps users manage daily tasks with due dates, search, and data backup features.
 
@@ -31,3 +31,34 @@ project-folder/
 ## 📸 Preview
 
 ![image](https://github.com/user-attachments/assets/c641eae7-3335-43c7-8c05-e976d973aaae)
+
+# Task 2 Blog Web App
+
+A simple, full-featured blog web application built with Node.js, Express, MongoDB, and EJS templating.  
+This project allows users to sign up, create, edit, delete, and view blog posts. It supports user authentication and pagination for blog posts.
+
+---
+
+## Features
+
+- User Authentication (Signup, Login, Logout) using JWT and cookies
+- Create, Read, Update, Delete (CRUD) operations on blog posts
+- Pagination for browsing posts
+- Responsive UI built with Bootstrap 5
+- User authorization: users can only edit or delete their own posts
+- Clean and intuitive UI with Bootstrap cards and navigation
+
+---
+
+## Tech Stack
+
+- Backend: Node.js, Express.js
+- Database: MongoDB with Mongoose ODM
+- Authentication: JWT (JSON Web Tokens)
+- Templating: EJS
+- Styling: Bootstrap 5, custom CSS
+- Other libraries: bcrypt for password hashing, dotenv for environment variables
+
+## Image Preview
+
+![image](https://github.com/user-attachments/assets/98e8c53d-bd8b-45f1-b715-37b7724825bc)
