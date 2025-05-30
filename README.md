@@ -62,22 +62,35 @@ This project allows users to sign up, create, edit, delete, and view blog posts.
 ## Installation
 
 1.Clone the repository
+
 2.Navigate to project directory
+
   cd blog-website
+  
 3.Install dependencies
+
   npm install
+  
 4.Create a .env file in the root directory and add your environment variables:
+
   MONGODB_URI=your_mongodb_connection_string
+  
   JWT_SECRET=your_jwt_secret
+  
   PORT=3000
+  
 5.Start the server
+
   node app.js
 
 ## 🔧 Environment Variables
 
 1.Variable	Description
+
   MONGODB_URI	MongoDB connection string
+  
   JWT_SECRET	Secret key for JWT token generation
+  
   PORT	Port number for the server (default: 3000)
 
 ## Image Preview
